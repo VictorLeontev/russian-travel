@@ -1,0 +1,22 @@
+.places__image {
+    justify-self: stretch;
+    height: 460px;
+}
+
+@media screen and (max-width: 1024px) {
+    .places__image {
+        height: 440px;
+    }
+}
+
+@media screen and (max-width: 928px) {
+    .places__image {
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .places__image {
+        height: 320px;
+    }
+}

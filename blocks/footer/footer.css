@@ -1,0 +1,21 @@
+.footer {
+    width: 92.5%;
+    margin: 92px auto 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 93.75%;
+        margin: 88px auto 24px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 64px auto 24px;
+    }
+}
