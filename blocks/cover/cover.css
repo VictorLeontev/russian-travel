@@ -10,9 +10,11 @@
     flex-direction: column;
 }
 
-@media screen and (max-width: 1184px) {
+@media screen and (max-width: 1200px) {
     .cover {
-        width: 100vw;
+        width: 100%;
         height: calc(100vw * 740 / 1184);
+        margin-right: 0;
+        margin-left: 0;
     }
 }

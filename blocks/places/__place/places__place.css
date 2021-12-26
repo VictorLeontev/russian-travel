@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (max-width: 928px) {
+@media screen and (max-width: 950px) {
     .places__place {
         grid-template-columns: 340px 352px;
         grid-template-rows: auto auto;
@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 750px) {
     .places__place {
         grid-template-columns: 320px;
         grid-template-rows: auto auto 320px auto;
