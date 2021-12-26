@@ -1,5 +1,5 @@
 .footer__link {
-    font-family: Inter;
+    font-family: 'Inter', Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -15,15 +15,33 @@
     opacity: 0.8;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 710px) {
     .footer__link {
-        display: block;
         margin-top: 32px;
-        margin-right: 70px;
-        font-size: 24px;
-        line-height: 24px;
+        margin-right: 300px;
     }
     .footer__link:first-of-type {
         margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__link {
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer__link {
+        margin-right: 110px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer__link {
+        display: block;
+        margin-right: 70px;
+        font-size: 24px;
+        line-height: 24px;
     }
 }

@@ -3,6 +3,7 @@
     margin: 92px auto 0;
     display: grid;
     row-gap: 80px;
+    justify-content: center;
 }
 
 @media screen and (max-width: 1024px) {
